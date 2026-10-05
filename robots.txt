@@ -29,4 +29,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://arthur-erikovich.github.io/sitemap.xml
+Sitemap: https://erikovich.com/sitemap.xml
