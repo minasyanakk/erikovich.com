@@ -1,31 +1,75 @@
 <!doctype html>
-<html lang="uk">
+<html lang="uk" prefix="og: https://ogp.me/ns# profile: https://ogp.me/ns/profile#">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Артур Мінасян</title>
-<meta name="description" content="Артур Ерікович Мінасян (Arthur Minasian, @arthur_erikovich) — український GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер.">
+<title>Артур Мінасян — GR-спеціаліст, IT-менеджер, журналіст і блогер</title>
+<meta name="description" content="Артур Ерікович Мінасян (Arthur Minasian, @arthur_erikovich) — український GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер. Пишу про технології, бізнес і державу.">
 <meta name="author" content="Артур Мінасян">
+<meta name="creator" content="Артур Мінасян">
+<meta name="publisher" content="Артур Мінасян">
+<meta name="application-name" content="Arthur Minasian">
+<meta name="apple-mobile-web-app-title" content="Arthur Minasian">
+
+<!-- Індексація -->
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="bingbot" content="index,follow">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+
+<!-- Канонічна адреса та мовні версії -->
 <link rel="canonical" href="https://erikovich.com/">
 <link rel="alternate" hreflang="uk" href="https://erikovich.com/">
 <link rel="alternate" hreflang="en" href="https://erikovich.com/en/">
 <link rel="alternate" hreflang="x-default" href="https://erikovich.com/">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+<!-- Фавікони (Google бере звідси, data: URI він не індексує) -->
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+<link rel="manifest" href="/site.webmanifest">
+
+<!-- Open Graph -->
 <meta property="og:type" content="profile">
+<meta property="og:site_name" content="Arthur Minasian">
 <meta property="og:title" content="Артур Ерікович Мінасян">
-<meta property="og:description" content="Артур Ерікович Мінасян (Arthur Minasian, @arthur_erikovich) — український GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер.">
+<meta property="og:description" content="Український GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер. Пишу про технології, бізнес і державу.">
 <meta property="og:url" content="https://erikovich.com/">
 <meta property="og:locale" content="uk_UA">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:image" content="https://erikovich.com/avatar.jpg">
+<meta property="og:image:secure_url" content="https://erikovich.com/avatar.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="Артур Ерікович Мінасян">
 <meta property="profile:first_name" content="Arthur">
 <meta property="profile:last_name" content="Minasian">
 <meta property="profile:username" content="arthur_erikovich">
+
+<!-- Twitter / X -->
 <meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Артур Ерікович Мінасян">
+<meta name="twitter:description" content="Український GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер.">
+<meta name="twitter:image" content="https://erikovich.com/avatar.jpg">
+<meta name="twitter:image:alt" content="Артур Ерікович Мінасян">
+
+<!-- Підтвердження профілів -->
 <link rel="me" href="https://www.threads.com/@arthur_erikovich">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231d1d1f'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='-apple-system,Helvetica,Arial' font-weight='700' font-size='26' fill='%23fff'%3EAM%3C/text%3E%3C/svg%3E">
+<!-- Коди Search Console / Bing: розкоментуй і встав свої -->
+<!-- <meta name="google-site-verification" content="ВАШ_КОД"> -->
+<!-- <meta name="msvalidate.01" content="ВАШ_КОД"> -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="/avatar.jpg">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -35,26 +79,35 @@
       "@id": "https://erikovich.com/#website",
       "url": "https://erikovich.com/",
       "name": "Arthur Minasian",
-      "inLanguage": [
-        "uk",
-        "en"
-      ],
-      "publisher": {
-        "@id": "https://erikovich.com/#person"
-      }
+      "alternateName": ["Артур Мінасян", "erikovich.com"],
+      "inLanguage": ["uk", "en"],
+      "publisher": { "@id": "https://erikovich.com/#person" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://erikovich.com/#avatar",
+      "url": "https://erikovich.com/avatar.jpg",
+      "contentUrl": "https://erikovich.com/avatar.jpg",
+      "caption": "Артур Ерікович Мінасян",
+      "inLanguage": "uk"
     },
     {
       "@type": "ProfilePage",
       "@id": "https://erikovich.com/#profile",
       "url": "https://erikovich.com/",
       "name": "Артур Ерікович Мінасян",
+      "description": "Персональний сайт Артура Еріковича Мінасяна — GR-спеціаліста, менеджера в IT-індустрії, журналіста і блогера.",
       "inLanguage": "uk",
-      "dateModified": "2026-10-05",
-      "isPartOf": {
-        "@id": "https://erikovich.com/#website"
-      },
-      "mainEntity": {
-        "@id": "https://erikovich.com/#person"
+      "dateCreated": "2026-01-01",
+      "dateModified": "2026-10-08",
+      "isPartOf": { "@id": "https://erikovich.com/#website" },
+      "primaryImageOfPage": { "@id": "https://erikovich.com/#avatar" },
+      "mainEntity": { "@id": "https://erikovich.com/#person" },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Головна", "item": "https://erikovich.com/" }
+        ]
       }
     },
     {
@@ -62,7 +115,6 @@
       "@id": "https://erikovich.com/#person",
       "name": "Артур Мінасян",
       "alternateName": [
-        "Артур Мінасян",
         "Артур Ерікович Мінасян",
         "Артур Ерікович",
         "Артур Минасян",
@@ -81,11 +133,11 @@
       "additionalName": "Erikovich",
       "familyName": "Minasian",
       "description": "Артур Ерікович Мінасян (Arthur Minasian, @arthur_erikovich) — український GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер.",
-      "jobTitle": [
-        "GR-спеціаліст",
-        "Менеджер в IT-індустрії",
-        "Журналіст",
-        "Блогер"
+      "jobTitle": ["GR-спеціаліст", "Менеджер в IT-індустрії", "Журналіст", "Блогер"],
+      "hasOccupation": [
+        { "@type": "Occupation", "name": "GR-спеціаліст" },
+        { "@type": "Occupation", "name": "Менеджер в IT-індустрії" },
+        { "@type": "Occupation", "name": "Журналіст" }
       ],
       "knowsAbout": [
         "Government Relations",
@@ -96,21 +148,12 @@
         "Journalism",
         "Blogging"
       ],
-      "knowsLanguage": [
-        "uk",
-        "ru",
-        "en"
-      ],
-      "nationality": {
-        "@type": "Country",
-        "name": "Ukraine"
-      },
-      "homeLocation": {
-        "@type": "Country",
-        "name": "Ukraine"
-      },
+      "knowsLanguage": ["uk", "ru", "en"],
+      "nationality": { "@type": "Country", "name": "Ukraine" },
+      "homeLocation": { "@type": "Country", "name": "Ukraine" },
       "url": "https://erikovich.com/",
-      "image": "https://erikovich.com/avatar.jpg",
+      "mainEntityOfPage": { "@id": "https://erikovich.com/#profile" },
+      "image": { "@id": "https://erikovich.com/#avatar" },
       "sameAs": [
         "https://www.threads.com/@arthur_erikovich"
       ]
@@ -150,15 +193,17 @@ footer{position:relative;z-index:1;text-align:center;font-size:12px;color:var(--
 </style>
 </head>
 <body>
-<nav><span class="mark">Arthur Minasian</span><span class="langs"><a href="/" lang="uk" hreflang="uk" aria-current="page">UK</a><a href="/en/" lang="en" hreflang="en">EN</a></span></nav>
+<header>
+<nav aria-label="Мова"><a class="mark" href="/" style="color:inherit;text-decoration:none">Arthur Minasian</a><span class="langs"><a href="/" lang="uk" hreflang="uk" aria-current="page">UK</a><a href="/en/" lang="en" hreflang="en">EN</a></span></nav>
+</header>
 <main>
-<img class="avatar in d1" src="/avatar.jpg" alt="Артур Ерікович Мінасян" width="112" height="112" onerror="this.remove()">
+<img class="avatar in d1" src="/avatar.jpg" alt="Артур Ерікович Мінасян" width="112" height="112" fetchpriority="high" decoding="async" onerror="this.remove()">
 <p class="eyebrow in d1">GR · IT · Журналістика</p>
 <h1 class="in d2">Артур Мінасян</h1>
 <p class="lead in d3">GR-спеціаліст, менеджер в IT‑індустрії, журналіст і блогер.</p>
 <p class="sub in d3">Пишу про технології, бізнес і державу.</p>
-<a class="cta in d4" href="https://www.threads.com/@arthur_erikovich" rel="me">Читати в Threads <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4"/></svg></a>
-<p class="handle in d5"><a href="https://www.threads.com/@arthur_erikovich" rel="me">@arthur_erikovich</a></p>
+<a class="cta in d4" href="https://www.threads.com/@arthur_erikovich" rel="me noopener" target="_blank">Читати в Threads <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4"/></svg></a>
+<p class="handle in d5"><a href="https://www.threads.com/@arthur_erikovich" rel="me noopener" target="_blank">@arthur_erikovich</a></p>
 </main>
 <footer>© 2026 Артур Ерікович Мінасян</footer>
 </body>
