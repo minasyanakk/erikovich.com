@@ -17,9 +17,8 @@
 <meta name="bingbot" content="index,follow">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="format-detection" content="telephone=no">
-<meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#000000">
 
 <!-- Канонічна адреса та мовні версії -->
 <link rel="canonical" href="https://erikovich.com/">
@@ -28,7 +27,7 @@
 <link rel="alternate" hreflang="x-default" href="https://erikovich.com/">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
-<!-- Фавікони (Google бере звідси, data: URI він не індексує) -->
+<!-- Фавікони -->
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-96.png" type="image/png" sizes="96x96">
@@ -39,25 +38,27 @@
 <!-- Open Graph -->
 <meta property="og:type" content="profile">
 <meta property="og:site_name" content="Arthur Minasian">
-<meta property="og:title" content="Артур Ерікович Мінасян">
+<meta property="og:title" content="Артур Ерікович Мінасян — GR, IT, журналістика">
 <meta property="og:description" content="Український GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер. Пишу про технології, бізнес і державу.">
 <meta property="og:url" content="https://erikovich.com/">
 <meta property="og:locale" content="uk_UA">
 <meta property="og:locale:alternate" content="en_US">
-<meta property="og:image" content="https://erikovich.com/avatar.jpg">
-<meta property="og:image:secure_url" content="https://erikovich.com/avatar.jpg">
-<meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:alt" content="Артур Ерікович Мінасян">
+<meta property="og:image" content="https://erikovich.com/og.png">
+<meta property="og:image:secure_url" content="https://erikovich.com/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Артур Мінасян — GR-спеціаліст, менеджер в IT-індустрії, журналіст">
 <meta property="profile:first_name" content="Arthur">
 <meta property="profile:last_name" content="Minasian">
 <meta property="profile:username" content="arthur_erikovich">
 
 <!-- Twitter / X -->
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Артур Ерікович Мінасян">
 <meta name="twitter:description" content="Український GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер.">
-<meta name="twitter:image" content="https://erikovich.com/avatar.jpg">
-<meta name="twitter:image:alt" content="Артур Ерікович Мінасян">
+<meta name="twitter:image" content="https://erikovich.com/og.png">
+<meta name="twitter:image:alt" content="Артур Мінасян — GR-спеціаліст, менеджер в IT-індустрії, журналіст">
 
 <!-- Підтвердження профілів -->
 <link rel="me" href="https://www.threads.com/@arthur_erikovich">
@@ -67,8 +68,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="image" href="/avatar.jpg">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
 
 <script type="application/ld+json">
 {
@@ -95,11 +95,11 @@
       "@type": "ProfilePage",
       "@id": "https://erikovich.com/#profile",
       "url": "https://erikovich.com/",
-      "name": "Артур Ерікович Мінасян",
+      "name": "Артур Мінасян — GR-спеціаліст, IT-менеджер, журналіст і блогер",
       "description": "Персональний сайт Артура Еріковича Мінасяна — GR-спеціаліста, менеджера в IT-індустрії, журналіста і блогера.",
       "inLanguage": "uk",
       "dateCreated": "2026-01-01",
-      "dateModified": "2026-10-08",
+      "dateModified": "2026-11-12",
       "isPartOf": { "@id": "https://erikovich.com/#website" },
       "primaryImageOfPage": { "@id": "https://erikovich.com/#avatar" },
       "mainEntity": { "@id": "https://erikovich.com/#person" },
@@ -135,13 +135,15 @@
       "description": "Артур Ерікович Мінасян (Arthur Minasian, @arthur_erikovich) — український GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер.",
       "jobTitle": ["GR-спеціаліст", "Менеджер в IT-індустрії", "Журналіст", "Блогер"],
       "hasOccupation": [
-        { "@type": "Occupation", "name": "GR-спеціаліст" },
-        { "@type": "Occupation", "name": "Менеджер в IT-індустрії" },
-        { "@type": "Occupation", "name": "Журналіст" }
+        { "@type": "Occupation", "name": "GR-спеціаліст", "description": "Комунікація бізнесу з державою, адвокація інтересів галузі, участь в обговоренні регулювання." },
+        { "@type": "Occupation", "name": "Менеджер в IT-індустрії", "description": "Управління командами й технологічними проєктами, інфраструктура, цифрова трансформація." },
+        { "@type": "Occupation", "name": "Журналіст", "description": "Авторські тексти й коментарі про технології, IT-бізнес і державу." }
       ],
       "knowsAbout": [
         "Government Relations",
         "Public affairs",
+        "Адвокація",
+        "Лобіювання",
         "IT industry",
         "Technology management",
         "Digital transformation",
@@ -157,54 +159,389 @@
       "sameAs": [
         "https://www.threads.com/@arthur_erikovich"
       ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://erikovich.com/#faq",
+      "inLanguage": "uk",
+      "about": { "@id": "https://erikovich.com/#person" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Хто такий Артур Мінасян?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Артур Ерікович Мінасян — український GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер, автор Threads @arthur_erikovich." }
+        },
+        {
+          "@type": "Question",
+          "name": "Як пишеться ім'я латиницею?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Arthur Minasian. Також трапляються варіанти Arthur Minasyan, Artur Minasian та нік Arthur Erikovich." }
+        },
+        {
+          "@type": "Question",
+          "name": "Де читати Артура Мінасяна?",
+          "acceptedAnswer": { "@type": "Answer", "text": "У Threads: @arthur_erikovich. Офіційний сайт — erikovich.com." }
+        }
+      ]
     }
   ]
 }
 </script>
 <style>
-:root{--bg:#fbfbfd;--fg:#1d1d1f;--muted:#6e6e73;--faint:#86868b;--line:rgba(0,0,0,.08);--blue:#0071e3;--blue-h:#0077ed;--glow:rgba(0,113,227,.10)}
-@media (prefers-color-scheme:dark){:root{--bg:#000;--fg:#f5f5f7;--muted:#a1a1a6;--faint:#6e6e73;--line:rgba(255,255,255,.12);--blue:#2997ff;--blue-h:#47a6ff;--glow:rgba(41,151,255,.14)}}
-*{box-sizing:border-box;margin:0}
-html{-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Inter","Helvetica Neue",Arial,sans-serif;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;overflow-x:hidden}
-body::before{content:"";position:fixed;inset:-20% -10% auto;height:70vh;background:radial-gradient(closest-side,var(--glow),transparent);pointer-events:none;z-index:0}
-nav{position:relative;z-index:1;display:flex;justify-content:space-between;align-items:center;max-width:980px;width:100%;margin:0 auto;padding:18px 22px;font-size:12px;letter-spacing:.01em}
-.mark{font-weight:600;font-size:14px;letter-spacing:-.01em}
-.langs{display:flex;gap:2px;padding:3px;border-radius:999px;background:var(--line)}
-.langs a{color:var(--muted);text-decoration:none;padding:5px 11px;border-radius:999px;transition:color .2s,background .2s}
-.langs a:hover{color:var(--fg)}
-.langs a[aria-current]{background:var(--bg);color:var(--fg);font-weight:600;box-shadow:0 1px 3px rgba(0,0,0,.08)}
-main{position:relative;z-index:1;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:48px 22px 72px}
-.avatar{width:112px;height:112px;border-radius:50%;object-fit:cover;margin-bottom:32px;box-shadow:0 0 0 1px var(--line),0 20px 40px -18px rgba(0,0,0,.35)}
-.eyebrow{font-size:14px;font-weight:600;letter-spacing:.02em;color:var(--blue);margin-bottom:14px}
-h1{font-size:clamp(46px,10vw,96px);line-height:1.04;font-weight:700;letter-spacing:-.035em;background:linear-gradient(180deg,var(--fg) 55%,color-mix(in srgb,var(--fg) 62%,var(--bg)));-webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:.06em}
-.lead{margin-top:22px;font-size:clamp(19px,2.6vw,26px);line-height:1.32;font-weight:600;letter-spacing:-.012em;max-width:30ch}
-.sub{margin-top:10px;font-size:clamp(17px,2vw,21px);line-height:1.4;color:var(--muted);letter-spacing:-.005em;max-width:32ch}
-.cta{margin-top:40px;display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;text-decoration:none;font-size:17px;font-weight:500;padding:12px 24px;border-radius:999px;transition:background .2s,transform .2s}
-.cta:hover{background:var(--blue-h);transform:translateY(-1px)}
-.cta svg{transition:transform .2s}.cta:hover svg{transform:translateX(3px)}
-.handle{margin-top:16px;font-size:14px;color:var(--faint)}
-.handle a{color:inherit;text-decoration:none}.handle a:hover{color:var(--blue)}
-footer{position:relative;z-index:1;text-align:center;font-size:12px;color:var(--faint);padding:22px;border-top:1px solid var(--line);max-width:980px;width:calc(100% - 44px);margin:0 auto}
-.in{opacity:0;transform:translateY(14px);animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
-.d1{animation-delay:.05s}.d2{animation-delay:.15s}.d3{animation-delay:.25s}.d4{animation-delay:.35s}.d5{animation-delay:.45s}
-@keyframes up{to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){.in{animation:none;opacity:1;transform:none}}
+:root{--bg:#F2F3F4;--ink:#000;--mut:#44474E;--soft:#5B5E66;--line:rgba(0,0,0,.16);--panel:#E4E5E8;--acc:#C9CCD3;--glow:255,255,255;--ga:.2;--pad:clamp(20px,5vw,72px);--ease:cubic-bezier(.2,.8,.2,1)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:-.005em;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,p,ol,ul{margin:0}ol,ul{padding:0;list-style:none}
+a{color:inherit}
+:focus-visible{outline:2px solid currentColor;outline-offset:4px;border-radius:999px}
+.wrap{padding:12px 0 calc(12px + env(safe-area-inset-bottom))}
+
+/* hero */
+.hero{position:relative;margin:0 12px;padding:16px clamp(20px,3vw,40px) 40px;border-radius:28px;overflow:hidden;color:#fff;background:radial-gradient(ellipse 62% 48% at 50% 52%,#171A21,#000 72%);display:flex;flex-direction:column;justify-content:space-between;gap:32px;min-height:max(720px,calc(100svh - 24px));touch-action:pan-y}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.top{position:relative;display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:48px}
+.top a{text-decoration:none;font-size:14px;display:inline-flex;align-items:center;min-height:44px;transition:color .3s}
+.top a:hover{color:var(--acc)}
+.brand{font-weight:500;font-size:15px!important}
+.links{display:flex;gap:32px}
+.hero-b{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;gap:26px}
+.hero h1{font-weight:500;font-size:clamp(46px,7.4vw,108px);line-height:.95;letter-spacing:-.05em}
+.who{margin-top:18px;font-size:clamp(15px,1.4vw,18px)}
+.tag{margin-top:6px;font-size:15px;color:#9A9EA8}
+.hero .sub{margin-top:14px;font-size:15px;color:#C9CCD3}
+.acts{display:flex;flex-direction:column;align-items:center;gap:14px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;justify-content:center;height:48px;padding:0 24px;border-radius:999px;font-weight:500;font-size:14px;text-decoration:none;transition:transform .3s var(--ease),background-color .3s}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:scale(.97)}
+.b-solid{background:#fff;color:#000}.b-solid:hover{background:var(--acc)}
+.b-ghost{background:rgba(255,255,255,.14);color:#fff;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}.b-ghost:hover{background:rgba(255,255,255,.24)}
+.hint{font-size:13px;color:#9A9EA8}
+
+.langs{display:flex;gap:2px;padding:3px;border-radius:999px;background:rgba(255,255,255,.12)}
+.top .langs a{min-height:38px;padding:0 12px;border-radius:999px;font-size:12px;color:#C9CCD3;justify-content:center}
+.top .langs a[aria-current]{background:#fff;color:#000;font-weight:600}
+.me{display:flex;flex-wrap:wrap;align-items:center;gap:20px 28px}
+.avatar{flex:0 0 auto;width:96px;height:96px;border-radius:50%;object-fit:cover}
+.me .lead{flex:1 1 320px}
+.said{margin-top:14px;color:var(--mut);max-width:760px}
+
+/* sections */
+.sec{padding:0 var(--pad) clamp(88px,9vw,136px);display:flex;flex-wrap:wrap;gap:20px 48px}
+.sec.first{padding-top:clamp(88px,11vw,168px)}
+.lab{flex:0 0 200px;font-size:14px;font-weight:500;padding-top:8px}
+.con{flex:1 1 520px;min-width:0}
+.big{max-width:900px;font-weight:500;font-size:clamp(26px,2.9vw,42px);line-height:1.18;letter-spacing:-.03em;text-wrap:pretty}
+.js .big .w{color:#C2C4C9;transition:color .7s ease}
+.js .big .w.on{color:#000}
+.lead{max-width:760px;font-size:clamp(19px,1.7vw,24px);line-height:1.38;letter-spacing:-.015em;font-weight:500}
+.roles{margin-top:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:12px}
+.role{padding:22px;border-radius:20px;background:var(--panel);display:flex;flex-direction:column;gap:28px;min-height:190px;justify-content:space-between}
+.role h3{font-weight:500;font-size:22px;letter-spacing:-.02em}
+.role p{color:var(--mut);font-size:15px}
+.steps li{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 32px;padding:20px 0;border-top:1px solid var(--line)}
+.steps li:last-child{border-bottom:1px solid var(--line)}
+.steps .n{flex:0 0 28px;font-size:14px;color:var(--soft)}
+.steps h3{flex:0 0 200px;font-weight:500;font-size:22px;letter-spacing:-.02em}
+.steps p{flex:1 1 300px;max-width:520px;color:var(--mut)}
+
+/* services */
+.svcs{display:flex;flex-wrap:wrap;gap:28px 40px;align-items:stretch}
+.tabs{flex:1 1 300px;display:flex;flex-direction:column}
+.tab{min-height:62px;padding:8px 0;background:none;border:0;border-top:1px solid var(--line);text-align:left;font:inherit;font-weight:500;font-size:22px;letter-spacing:-.02em;color:#74777E;cursor:pointer;transition:color .3s,padding-left .35s var(--ease)}
+.tab:last-child{border-bottom:1px solid var(--line)}
+.tab:hover,.tab[aria-pressed=true]{color:#000}
+.tab:hover{padding-left:10px}
+.cards{flex:1 1 340px;min-width:0;display:flex}
+.card{flex:1;display:none;flex-direction:column;justify-content:space-between;gap:40px;min-height:360px;padding:clamp(24px,3vw,40px);border-radius:24px;background:#000;color:#fff}
+.card.on{display:flex;animation:swap .5s var(--ease) both}
+.card h3{font-weight:500;font-size:26px;letter-spacing:-.025em;margin:14px 0 12px}
+.card i{display:block;width:40px;height:2px;background:var(--acc)}
+.card p{color:#C9CCD3;max-width:460px}
+.card ul{display:flex;flex-wrap:wrap;gap:8px}
+.card li{padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.22);font-size:13px}
+.dots{display:none}
+@keyframes swap{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+/* situations, principles, faq */
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:12px}
+.sit{min-height:300px;padding:24px;border-radius:24px;background:var(--panel);display:flex;flex-direction:column;justify-content:space-between;gap:24px;transition:transform .5s var(--ease),background-color .4s}
+.sit:hover{transform:translateY(-6px);background:#DADBDF}
+.sit h3{font-weight:500;font-size:22px;line-height:1.15;letter-spacing:-.02em}
+.sit p{color:var(--mut)}
+.prin li{padding:22px 0;border-top:1px solid var(--line);font-weight:500;font-size:clamp(22px,2.4vw,34px);line-height:1.15;letter-spacing:-.025em;max-width:860px}
+.prin li:last-child{border-bottom:1px solid var(--line)}
+.prin span{display:block;margin-top:8px;font-weight:400;font-size:16px;line-height:1.5;letter-spacing:-.005em;color:var(--mut);max-width:560px}
+details{border-top:1px solid var(--line)}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:68px;padding:10px 0;font-weight:500;font-size:20px;letter-spacing:-.02em}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"";flex:0 0 14px;height:14px;background:linear-gradient(#000,#000) center/14px 1.5px no-repeat,linear-gradient(#000,#000) center/1.5px 14px no-repeat;transition:transform .35s var(--ease)}
+details[open] summary::after{transform:rotate(45deg)}
+summary:focus-visible{border-radius:8px}
+details p{padding:0 0 24px;max-width:640px;color:var(--mut)}
+
+/* contact */
+.end{position:relative;overflow:hidden;margin:0 12px;border-radius:28px;color:#fff;padding:clamp(80px,9vw,128px) clamp(20px,3vw,40px) 24px;display:flex;flex-direction:column;align-items:flex-start;gap:28px;background:radial-gradient(ellipse 70% 55% at 50% 120%,rgba(var(--glow),var(--ga)),rgba(var(--glow),calc(var(--ga)*.22)) 55%,transparent 75%),#000}
+.end h2{max-width:980px;font-weight:500;font-size:clamp(38px,5.6vw,84px);line-height:1;letter-spacing:-.045em;text-wrap:balance}
+.end .note{color:#C9CCD3;max-width:480px}
+.foot{align-self:stretch;margin-top:clamp(56px,8vw,120px);padding-top:16px;border-top:1px solid rgba(255,255,255,.22);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 32px;font-size:14px}
+.foot a{display:inline-flex;align-items:center;min-height:44px;transition:color .3s}.foot a:hover{color:var(--acc)}
+
+/* dock */
+.dock{position:fixed;z-index:20;left:50%;top:14px;transform:translate(-50%,-140%);display:flex;align-items:center;gap:2px;padding:5px;border-radius:999px;background:rgba(18,19,22,.72);backdrop-filter:blur(20px) saturate(1.5);-webkit-backdrop-filter:blur(20px) saturate(1.5);border:1px solid rgba(255,255,255,.14);transition:transform .6s var(--ease)}
+.dock.show{transform:translate(-50%,0)}
+.dock a{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 16px;border-radius:999px;color:#C9CCD3;font-size:14px;font-weight:500;text-decoration:none;white-space:nowrap;transition:color .3s,background-color .3s}
+.dock a:hover,.dock a.cur{color:#fff;background:rgba(255,255,255,.14)}
+.dock a.go{background:#fff;color:#000;margin-left:4px}
+.dock a.go:hover{background:var(--acc)}
+
+/* reveal */
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.js .rv.in{opacity:1;transform:none}
+@keyframes rise{from{opacity:0;transform:translateY(24px);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
+.r1{animation:rise 1.2s var(--ease) .15s both}.r2{animation:rise 1.2s var(--ease) .4s both}
+
+/* mobile */
+@media (max-width:720px){
+  .links,.hint{display:none}
+  .hero{min-height:max(760px,calc(100svh - 24px));padding:10px 20px 28px;border-radius:24px}
+  .hero h1{font-size:clamp(46px,14vw,64px)}
+  .hero-b{align-items:stretch;gap:22px}
+  .acts{align-items:stretch}.btns{display:grid;grid-template-columns:1fr}
+  .btn{height:52px;padding:0 12px;font-size:15px}
+  .sec{gap:14px;padding-bottom:88px}.sec.first{padding-top:88px}
+  .lab{flex-basis:100%;padding:0;color:var(--soft)}
+  .roles{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:32px calc(var(--pad)*-1) 0;padding:0 var(--pad);scrollbar-width:none}
+  .roles::-webkit-scrollbar,.cards::-webkit-scrollbar{display:none}
+  .role{flex:0 0 74%;scroll-snap-align:center}
+  .steps li{flex-direction:column;gap:6px;padding:22px 0}
+  .steps .n{flex:none;font-size:13px}
+  .steps h3{flex:none;font-size:30px;letter-spacing:-.03em}
+  .steps p{flex:none}
+  .tabs{display:none}
+  .svcs{display:block}
+  .cards{overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;margin:0 calc(var(--pad)*-1);padding:0 var(--pad);scroll-padding:0 var(--pad);scrollbar-width:none}
+  .card,.card.on{display:flex;flex:0 0 86%;scroll-snap-align:start;min-height:400px;animation:none}
+  .dots{display:flex;gap:6px;margin-top:18px}
+  .dots i{width:6px;height:6px;border-radius:50%;background:rgba(0,0,0,.22);transition:width .4s var(--ease),background-color .3s}
+  .dots i.on{width:22px;border-radius:3px;background:#000}
+  .sit{min-height:0;gap:40px}
+  summary{font-size:18px;min-height:64px}
+  .end{border-radius:24px;padding:96px 20px 96px;margin-bottom:0}
+  .end .btn{align-self:stretch;height:56px;font-size:16px}
+  .foot{flex-direction:column;align-items:flex-start}
+  .dock{top:auto;bottom:calc(12px + env(safe-area-inset-bottom));left:12px;right:12px;transform:translateY(calc(140% + env(safe-area-inset-bottom)));justify-content:space-between}
+  .dock.show{transform:none}
+  .dock a{flex:1;padding:0 6px;height:48px;font-size:13px}
+  .dock a.go{flex:1.2}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .js .rv{opacity:1;transform:none}.js .big .w{color:#000}
+}
 </style>
 </head>
 <body>
-<header>
-<nav aria-label="Мова"><a class="mark" href="/" style="color:inherit;text-decoration:none">Arthur Minasian</a><span class="langs"><a href="/" lang="uk" hreflang="uk" aria-current="page">UK</a><a href="/en/" lang="en" hreflang="en">EN</a></span></nav>
+<script>document.documentElement.classList.add('js')</script>
+<div class="wrap">
+
+<header class="hero" id="top">
+  <canvas id="rada" aria-hidden="true"></canvas>
+  <nav class="top" aria-label="Головна навігація">
+    <a class="brand" href="#top">Arthur Minasian</a>
+    <div class="links">
+      <a href="#about">Про мене</a>
+      <a href="#faq">Коротко</a>
+      <a href="#contact">Контакт</a>
+    </div>
+    <div class="langs" aria-label="Мова"><a href="/" lang="uk" hreflang="uk" aria-current="page">UK</a><a href="/en/" lang="en" hreflang="en">EN</a></div>
+  </nav>
+  <div class="hero-b">
+    <div class="r1">
+      <h1>Артур Мінасян</h1>
+      <p class="who">GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер.</p>
+      <p class="tag">Рішення ухвалюють люди. Я знаю, які саме.</p>
+    </div>
+    <div class="acts r2">
+      <div class="btns">
+        <a class="btn b-solid" href="https://www.threads.com/@arthur_erikovich" rel="me noopener" target="_blank">Читати в Threads</a>
+        <a class="btn b-ghost" href="#about">Про мене</a>
+      </div>
+      <p class="hint">Проведіть курсором по залу: 226 голосів ухвалюють закон.</p>
+    </div>
+  </div>
 </header>
+
 <main>
-<img class="avatar in d1" src="/avatar.jpg" alt="Артур Ерікович Мінасян" width="112" height="112" fetchpriority="high" decoding="async" onerror="this.remove()">
-<p class="eyebrow in d1">GR · IT · Журналістика</p>
-<h1 class="in d2">Артур Мінасян</h1>
-<p class="lead in d3">GR-спеціаліст, менеджер в IT‑індустрії, журналіст і блогер.</p>
-<p class="sub in d3">Пишу про технології, бізнес і державу.</p>
-<a class="cta in d4" href="https://www.threads.com/@arthur_erikovich" rel="me noopener" target="_blank">Читати в Threads <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4"/></svg></a>
-<p class="handle in d5"><a href="https://www.threads.com/@arthur_erikovich" rel="me noopener" target="_blank">@arthur_erikovich</a></p>
+<section class="sec first" id="about">
+  <h2 class="lab">Про мене</h2>
+  <div class="con">
+    <div class="me rv">
+      <img class="avatar" src="/avatar.jpg" alt="Артур Ерікович Мінасян" width="96" height="96" loading="lazy" decoding="async" onerror="this.remove()">
+      <p class="lead">Я Артур Ерікович Мінасян, з України. Працюю там, де зустрічаються технології, бізнес і державна політика.</p>
+    </div>
+    <p class="said rv">Вибудовую відносини між бізнесом і владою (GR), керую проєктами в IT-індустрії та пишу про те, як технології змінюють країну й бізнес.</p>
+    <div class="roles rv">
+      <div class="role"><h3>GR</h3><p>Комунікація бізнесу з державою, адвокація інтересів галузі, участь в обговоренні регулювання.</p></div>
+      <div class="role"><h3>IT</h3><p>Управління командами й технологічними проєктами, інфраструктура, цифрова трансформація.</p></div>
+      <div class="role"><h3>Журналістика</h3><p>Авторські тексти й коментарі про технології, IT-бізнес і державу. Пишу в Threads як @arthur_erikovich.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="faq">
+  <h2 class="lab">Коротко</h2>
+  <div class="con rv">
+    <details><summary>Хто такий Артур Мінасян?</summary><p>Артур Ерікович Мінасян — український GR-спеціаліст, менеджер в IT-індустрії, журналіст і блогер, автор Threads @arthur_erikovich.</p></details>
+    <details><summary>Як пишеться ім'я латиницею?</summary><p>Arthur Minasian. Також трапляються варіанти Arthur Minasyan, Artur Minasian та нік Arthur Erikovich.</p></details>
+    <details><summary>Де читати?</summary><p>У Threads: <a href="https://www.threads.com/@arthur_erikovich" rel="me noopener" target="_blank">@arthur_erikovich</a>.</p></details>
+  </div>
+</section>
 </main>
-<footer>© 2026 Артур Ерікович Мінасян</footer>
+
+<footer class="end" id="contact">
+  <h2>На зв'язку.</h2>
+  <p class="note">Відкритий до розмови, коментарів для медіа і спільних проєктів.</p>
+  <a class="btn b-solid" href="https://www.threads.com/@arthur_erikovich" rel="me noopener" target="_blank">Написати в Threads</a>
+  <div class="foot">
+    <span>© 2026 Артур Ерікович Мінасян</span>
+    <a href="https://www.threads.com/@arthur_erikovich" rel="me noopener" target="_blank">Threads @arthur_erikovich</a>
+  </div>
+</footer>
+</div>
+
+<nav class="dock" id="dock" aria-label="Швидка навігація">
+  <a href="#about">Про мене</a>
+  <a href="#faq">Коротко</a>
+  <a class="go" href="#contact">Написати</a>
+</nav>
+
+<script>
+(function(){
+  var reduced = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var $ = function(s, r){ return Array.prototype.slice.call((r||document).querySelectorAll(s)); };
+
+  /* services */
+  var tabs = $('.tab'), cards = $('.card'), dots = $('#dots i'), rail = document.getElementById('cards');
+  tabs.forEach(function(t){ t.addEventListener('click', function(){
+    var i = +t.dataset.i;
+    tabs.forEach(function(x, j){ x.setAttribute('aria-pressed', j === i ? 'true' : 'false'); });
+    cards.forEach(function(c, j){ c.classList.toggle('on', j === i); });
+  }); });
+  if (rail) rail.addEventListener('scroll', function(){
+    var best = 0, bd = 1e9, l = rail.getBoundingClientRect().left;
+    cards.forEach(function(c, j){ var d = Math.abs(c.getBoundingClientRect().left - l - 20); if (d < bd) { bd = d; best = j; } });
+    dots.forEach(function(d, j){ d.classList.toggle('on', j === best); });
+  }, { passive: true });
+
+  /* scroll: manifesto, dock */
+  var words = $('.big .w'), dock = document.getElementById('dock'), hero = document.getElementById('top');
+  function onScroll(){
+    var vh = window.innerHeight;
+    words.forEach(function(w){ if (w.getBoundingClientRect().top < vh * 0.74) w.classList.add('on'); });
+    dock.classList.toggle('show', hero.getBoundingClientRect().bottom < vh * 0.45);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  onScroll();
+
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -12% 0px' });
+    $('.rv').forEach(function(el){ io.observe(el); });
+    var dl = $('.dock a');
+    var so = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting) dl.forEach(function(a){ a.classList.toggle('cur', a.getAttribute('href') === '#' + e.target.id && !a.classList.contains('go')); }); }); }, { rootMargin: '-40% 0px -55% 0px' });
+    ['about', 'faq', 'contact'].forEach(function(id){ var el = document.getElementById(id); if (el) so.observe(el); });
+  } else { $('.rv').forEach(function(el){ el.classList.add('in'); }); }
+
+  /* chamber */
+  var c = document.getElementById('rada'), g = c.getContext && c.getContext('2d'), heroB = document.querySelector('.hero-b');
+  if (!g) return;
+  var W = 0, H = 0, ptr = null, yaw = 0, pitch = 0.9, won = 0, fading = false, raf = 0, visible = true;
+  var ACC = '#FFFFFF', rows = 10, total = 450, rs = [], sum = 0, seats = [], left = total, i, j;
+  for (i = 0; i < rows; i++) { rs.push(1 + i * 0.155); sum += rs[i]; }
+  for (i = 0; i < rows; i++) {
+    var n = i === rows - 1 ? left : Math.round(total * rs[i] / sum); left -= n;
+    for (j = 0; j < n; j++) {
+      var q = (j + 0.5) / n * 5, w = Math.min(4, Math.floor(q)), a = Math.PI * (w + 0.07 + (q - w) * 0.86) / 5;
+      seats.push({ x: rs[i] * Math.cos(a), z: rs[i] * Math.sin(a), y: (rs[i] - 1) * 0.3, L: 0, nb: [] });
+    }
+  }
+  for (i = 0; i < seats.length; i++) for (j = i + 1; j < seats.length; j++)
+    if (Math.hypot(seats[i].x - seats[j].x, seats[i].z - seats[j].z) < 0.2) { seats[i].nb.push(j); seats[j].nb.push(i); }
+  var gain = new Float32Array(seats.length);
+
+  function fit(){
+    var w = c.clientWidth, h = c.clientHeight; if (!w || !h) return;
+    var d = Math.min(window.devicePixelRatio || 1, 2);
+    W = w; H = h; c.width = Math.round(w * d); c.height = Math.round(h * d);
+    g.setTransform(d, 0, 0, d, 0, 0);
+    if (reduced) draw(0);
+  }
+  function setPtr(e){
+    var r = hero.getBoundingClientRect();
+    ptr = { x: e.clientX - r.left, y: e.clientY - r.top };
+    if (reduced) draw(0);
+  }
+  hero.addEventListener('pointermove', setPtr);
+  hero.addEventListener('pointerdown', setPtr);
+  ['pointerleave', 'pointerup', 'pointercancel'].forEach(function(ev){ hero.addEventListener(ev, function(e){ if (ev === 'pointerleave' || e.pointerType !== 'mouse') ptr = null; }); });
+
+  function draw(ts){
+    if (!W) return;
+    var t = (ts || performance.now()) / 1000, small = W < 720;
+    var base = (heroB ? heroB.offsetTop : H * 0.55) - (small ? 30 : 44), free = base - 72;
+    var S = Math.max(40, Math.min(W * (small ? 0.25 : 0.17), free / 2.2));
+    var cx = W / 2, cy = base - Math.max(0, (free - S * 2.13) / 2);
+    var wantYaw = (ptr ? (ptr.x / W - 0.5) * 0.5 : 0) + Math.sin(t * 0.22) * 0.1;
+    var wantPitch = 0.9 + (ptr ? (ptr.y / H - 0.5) * 0.12 : 0);
+    yaw += (wantYaw - yaw) * 0.05; pitch += (wantPitch - pitch) * 0.05;
+    var cs = Math.cos(yaw), sn = Math.sin(yaw), sp = Math.sin(pitch), cp = Math.cos(pitch), f = 7;
+    function proj(x, y, z){
+      var x1 = x * cs - z * sn, z1 = x * sn + z * cs, k = f / (f + z1 * cp - y * sp);
+      return { x: cx + x1 * S * k, y: cy - (z1 * sp + y * cp) * S * k, k: k };
+    }
+    var th = Math.PI / 2 + Math.sin(t * 0.35) * 1.25, rr = 1.7 + Math.sin(t * 0.9) * 0.45;
+    var inf = ptr || proj(rr * Math.cos(th), 0.2, rr * Math.sin(th));
+    var R = Math.max(48, S * 0.42), dot = Math.max(2.2, S * 0.027), p, s, count = 0;
+    var flash = won ? Math.max(0, 1 - (t - won) / 1.4) : 0;
+    g.globalCompositeOperation = 'source-over'; g.globalAlpha = 1; g.clearRect(0, 0, W, H);
+
+    gain.fill(0);
+    for (i = 0; i < seats.length; i++) if (seats[i].L > 0.8) for (j = 0; j < seats[i].nb.length; j++) gain[seats[i].nb[j]] += 0.0005;
+    for (i = 0; i < seats.length; i++) {
+      s = seats[i]; p = proj(s.x, s.y, s.z);
+      var d = Math.hypot(p.x - inf.x, p.y - inf.y);
+      if (fading) s.L *= 0.95;
+      else { if (d < R) s.L += 0.09 * (1 - d / R); s.L = Math.min(1, (s.L + gain[i]) * 0.9986); }
+      if (s.L > 0.5) count++;
+      var e = s.L * s.L * (3 - 2 * s.L), wv = flash * e;
+      var cr = 44 + (255 - 44) * e, cg = 47 + (255 - 47) * e, cb = 56 + (255 - 56) * e;
+      g.fillStyle = 'rgb(' + (cr | 0) + ',' + (cg | 0) + ',' + (cb | 0) + ')';
+      g.beginPath(); g.arc(p.x, p.y, dot * p.k * (0.92 + 0.08 * e + 0.22 * wv), 0, 6.283); g.fill();
+    }
+    var N = seats.length, maj = 226;
+    if (!won && count >= maj) won = t;
+    if (won) { if (t - won > 5) fading = true; if (fading && count < 6) { won = 0; fading = false; } }
+
+    var passed = won && !fading, fs = Math.max(20, Math.min(40, S * 0.2)), ny = cy - S * 0.36;
+    g.textAlign = 'center'; g.textBaseline = 'alphabetic';
+    g.font = '500 ' + fs + 'px Inter, system-ui, sans-serif'; g.fillStyle = passed ? ACC : '#FFFFFF';
+    g.fillText(String(count), cx, ny);
+    g.font = '400 ' + (small ? 11 : 13) + 'px Inter, system-ui, sans-serif'; g.fillStyle = passed ? ACC : '#9A9EA8';
+    g.fillText(passed ? 'рішення ухвалено' : 'із 450, потрібно 226', cx, ny + (small ? 15 : 20));
+  }
+  function loop(ts){ draw(ts); raf = visible ? requestAnimationFrame(loop) : 0; }
+  fit();
+  if (window.ResizeObserver) new ResizeObserver(fit).observe(c); else window.addEventListener('resize', fit);
+  if (!reduced) {
+    raf = requestAnimationFrame(loop);
+    if ('IntersectionObserver' in window) new IntersectionObserver(function(es){
+      visible = es[0].isIntersecting; if (visible && !raf) raf = requestAnimationFrame(loop);
+    }).observe(hero);
+  }
+})();
+</script>
 </body>
 </html>
